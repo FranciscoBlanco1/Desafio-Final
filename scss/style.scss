@@ -1,0 +1,206 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: rgb(233, 233, 192);
+
+    /* Header en general */
+
+        .header {
+            padding: 0% 0% 5% 0%;
+            background-color: rgb(47, 158, 223);
+
+            .header__h1{ 
+                text-align: center;
+                font-size: 400%;
+                letter-spacing: 2%;
+                color: rgb(7, 47, 49);
+                transform: translate(0%, 120%);
+                font-weight: bolder;
+                transition: all 1s;
+            }
+
+            .header__h1:hover {
+                color: white;
+            }
+
+            .header__.logo {
+                height: 18%;
+                width: 18%;
+            }
+
+            .header__h3 {
+                text-align: center;
+                font-size: 180%;
+                color: rgb(7, 47, 49);
+                padding: 2%;
+            }
+
+            .header__.subtitulo {
+                font-size: 300%;
+                transition: 1s;
+            }
+
+            .header__.subtitulo:hover {
+                color: white;
+            }
+
+            /* Nav*/
+
+            .header__.nav, .header__.menu {
+                display: flex;
+                justify-content: space-evenly;
+                list-style: none;
+                text-transform: uppercase;
+                font-size: 160%;
+                margin: 0.5%;
+                padding: 0.5%;
+            }
+
+            ul li a {
+                text-decoration: none;
+                color: rgb(87, 4, 44);
+            }
+
+            .nav-link {
+                text-decoration: none;
+                color: rgb(87, 4, 44);
+            }
+
+            .nav-link:hover {
+                color: rgb(234, 242, 243);
+            }
+
+            ul li a:hover {
+                color: rgb(234, 242, 243);
+            }
+        }
+
+        /* Imagenes */
+
+        .article__img {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        img {
+            height: 30%;
+            width: 30%;
+            padding: 3%
+        }
+
+        /* Footer */
+
+        footer {
+            display: grid;
+            background-color: burlywood;
+            font-size: 120%;
+            padding: 5%;
+            grid-column-gap: 1rem;
+            grid-row-gap: 1rem;
+            grid-template-areas:"uno uno uno"
+                                "dos dos dos";
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+            .footer__grids {
+                color: rgb(88, 26, 146);
+                font-size: 120%;
+                margin: 2rem;
+            }
+
+            .footer__.redes {
+                list-style: none;
+                display: flex;
+                margin: 2rem;
+            }
+
+            .footer__.redes li {
+                margin: 2rem;
+                font-size: 150%;
+            }
+
+            .footer__.redes li a:hover {
+                color: red;
+            }
+
+            .footer__.telefonos {
+                list-style: none;
+                display: flex;
+                margin: 2rem;
+            }
+
+            .footer__.telefonos li {
+                margin: 1rem;
+            }
+
+            .footer__.uno {
+                grid-area: uno;
+            }
+
+            .footer__.dos {
+                grid-area: dos;
+            }
+
+            div a {
+                text-decoration: none;
+            }
+
+            div a:hover {
+                color: red;
+            }
+        
+        }
+
+        /* Otros Productos */
+
+        .article__productos {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        /* Sobre Nosotros */
+
+        .identidad {
+            font-size: 350%;
+            color: darkblue;
+            text-align: center;
+            padding: 5%;
+            transition: 1s;
+        }
+
+        .identidad:hover {
+            color: red;
+        }
+
+        /* Formularios */
+
+        p {
+            font-size: 220%;
+            color: rgb(14, 36, 61);
+        }
+
+        form {
+            font-size: 250%;
+            margin: 10%;
+        }
+
+        label {
+            color: rgb(65, 11, 11);
+        }
+
+        .titulo {
+            font-size: 350%;
+            color: darkblue;
+            transition: 1s;
+        }
+
+        .titulo:hover {
+            color: red;
+        }
+
+}   
