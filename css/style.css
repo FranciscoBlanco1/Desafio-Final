@@ -37,8 +37,8 @@ body .header .header__h1:hover {
 }
 
 body .header .header__logo {
-  height: 25%;
-  width: 25%;
+  height: 20%;
+  width: 20%;
 }
 
 body .header .header__subtitulo {
@@ -99,8 +99,12 @@ body .article__img {
 body img {
   width: 25%;
   height: auto;
-  border-style: dotted;
-  border-color: blue;
+  border: solid #ce344e;
+}
+
+body h3 {
+  text-align: center;
+  padding: 1%;
 }
 
 body footer {
@@ -184,16 +188,19 @@ body footer .desarrollado {
 body footer .footer__w {
   width: 8.5%;
   height: auto;
+  border: none;
 }
 
 body footer .footer__i {
   width: 8.5%;
   height: auto;
+  border: none;
 }
 
 body footer .footer__f {
   width: 8.5%;
   height: auto;
+  border: none;
 }
 
 body .article__productos {

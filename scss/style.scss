@@ -29,8 +29,8 @@ body {
             }
 
             .header__logo {
-                height: 25%;
-                width: 25%;
+                height: 20%;
+                width: 20%;
             }
 
             .header__subtitulo {
@@ -86,8 +86,12 @@ body {
         img {
             width: 25%;
             height: auto;
-            border-style: solid color pink;
-            border-color: blue;
+            border: solid rgb(206, 52, 78);
+        }
+
+        h3 {
+            text-align: center;
+            padding: 1%;
         }
 
 
@@ -161,16 +165,19 @@ body {
             .footer__w {
                 width: 8.5%;
                 height: auto;
+                border: none;
             }
 
             .footer__i {
                 width: 8.5%;
                 height: auto;
+                border: none;
             }
 
             .footer__f {
                 width: 8.5%;
                 height: auto;
+                border: none;
             }
         
         }
