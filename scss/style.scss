@@ -19,7 +19,7 @@ body {
                 font-size: 400%;
                 letter-spacing: 2%;
                 color: rgb(7, 47, 49);
-                transform: translate(0%, 120%);
+                transform: translate(0%, 180%);
                 font-weight: bolder;
                 transition: all 1s;
             }
@@ -28,30 +28,27 @@ body {
                 color: white;
             }
 
-            .header__.logo {
-                height: 18%;
-                width: 18%;
+            .header__logo {
+                height: 25%;
+                width: 25%;
             }
 
-            .header__h3 {
+            .header__subtitulo {
                 text-align: center;
                 font-size: 180%;
                 color: rgb(7, 47, 49);
                 padding: 2%;
-            }
-
-            .header__.subtitulo {
                 font-size: 300%;
                 transition: 1s;
             }
 
-            .header__.subtitulo:hover {
+            .header__subtitulo:hover {
                 color: white;
             }
 
             /* Nav*/
 
-            .header__.nav, .header__.menu {
+            .header__nav, .header__menu {
                 display: flex;
                 justify-content: space-evenly;
                 list-style: none;
@@ -86,12 +83,13 @@ body {
             display: flex;
             justify-content: space-evenly;
         }
-
         img {
-            height: 30%;
-            width: 30%;
-            padding: 3%
+            width: 25%;
+            height: auto;
+            border-style: solid colorr pink;
+            border-color: blue;
         }
+
 
         /* Footer */
 
@@ -100,49 +98,47 @@ body {
             background-color: burlywood;
             font-size: 120%;
             padding: 5%;
-            grid-column-gap: 1rem;
-            grid-row-gap: 1rem;
             grid-template-areas:"uno uno uno"
                                 "dos dos dos";
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 0.5fr);
+            grid-template-rows: repeat(2, 0.5fr);
 
             .footer__grids {
                 color: rgb(88, 26, 146);
-                font-size: 120%;
-                margin: 2rem;
-            }
-
-            .footer__.redes {
-                list-style: none;
-                display: flex;
-                margin: 2rem;
-            }
-
-            .footer__.redes li {
-                margin: 2rem;
-                font-size: 150%;
-            }
-
-            .footer__.redes li a:hover {
-                color: red;
-            }
-
-            .footer__.telefonos {
-                list-style: none;
-                display: flex;
-                margin: 2rem;
-            }
-
-            .footer__.telefonos li {
+                font-size: 100%;
                 margin: 1rem;
             }
 
-            .footer__.uno {
+            .footer__redes {
+                list-style: none;
+                display: flex;
+                margin: 1rem;
+            }
+
+            .footer__redes li {
+                margin: 1rem;
+                font-size: 120%;
+            }
+
+            .footer__redes li a:hover {
+                color: red;
+            }
+
+            .footer__telefonos {
+                list-style: none;
+                display: flex;
+                margin: 1rem;
+            }
+
+            .footer__telefonos li {
+                margin: 1rem;
+            }
+
+            .footer__uno {
                 grid-area: uno;
             }
 
-            .footer__.dos {
+            .footer__dos {
                 grid-area: dos;
             }
 
@@ -152,6 +148,29 @@ body {
 
             div a:hover {
                 color: red;
+            }
+
+            .parrafo {
+                font-size: 120%;
+            }
+
+            .desarrollado {
+                font-size: 120%;
+            }
+
+            .footer__w {
+                width: 8.5%;
+                height: auto;
+            }
+
+            .footer__i {
+                width: 8.5%;
+                height: auto;
+            }
+
+            .footer__f {
+                width: 8.5%;
+                height: auto;
             }
         
         }
