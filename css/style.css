@@ -232,7 +232,7 @@ body p {
 
 body form {
   font-size: 250%;
-  margin: 10%;
+  margin: 5%;
 }
 
 body label {
@@ -240,7 +240,7 @@ body label {
 }
 
 body .titulo {
-  font-size: 350%;
+  font-size: 300%;
   color: darkblue;
   -webkit-transition: 1s;
   transition: 1s;
@@ -248,5 +248,12 @@ body .titulo {
 
 body .titulo:hover {
   color: red;
+}
+
+body .persona {
+  border: solid black;
+  width: 10%;
+  height: auto;
+  text-align: start;
 }
 /*# sourceMappingURL=style.css.map */

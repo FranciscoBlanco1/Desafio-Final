@@ -212,7 +212,7 @@ body {
 
         form {
             font-size: 250%;
-            margin: 10%;
+            margin: 5%;
         }
 
         label {
@@ -220,13 +220,20 @@ body {
         }
 
         .titulo {
-            font-size: 350%;
+            font-size: 300%;
             color: darkblue;
             transition: 1s;
         }
 
         .titulo:hover {
             color: red;
+        }
+
+        .persona {
+            border: solid black;
+            width: 10%;
+            height: auto;
+            text-align:start;
         }
 
 }   
