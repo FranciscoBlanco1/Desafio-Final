@@ -212,7 +212,9 @@ body {
 
         form {
             font-size: 250%;
-            margin: 5%;
+            margin: 4%;
+            width: 80%;
+            height: 80%;
         }
 
         label {
@@ -232,8 +234,15 @@ body {
         .persona {
             border: solid black;
             width: 10%;
+            margin: 5%;
             height: auto;
             text-align:start;
+        }
+
+        .boton {
+            margin: 3%;
+            width: 20%;
+            height: 20%;
         }
 
 }   
