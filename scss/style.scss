@@ -35,7 +35,8 @@ body {
                 text-align: center;
                 color: rgb(7, 47, 49);
                 transition: 1s;
-                transform: translate(0,-50%);
+                transform: translate(0,-30%);
+                font-size: 200%;
             }
 
             .header__subtitulo:hover {
@@ -46,10 +47,10 @@ body {
 
             .header__nav {
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-evenly;
                 list-style: none;
                 text-transform: uppercase;
-                transform: translate(0%,-20%);
+                transform: translate(0%,-50%);
             }
 
             .header__menu {
@@ -57,22 +58,12 @@ body {
                 justify-content: space-evenly;
                 list-style: none;
                 text-transform: uppercase;
-                transform: translate(0,-40%);
             }
 
             ul li a {
                 text-decoration: none;
                 color: rgb(87, 4, 44);
-                font-size: 120%;
-            }
-
-            .nav-link {
-                text-decoration: none;
-                color: rgb(87, 4, 44);
-            }
-
-            .nav-link:hover {
-                color: rgb(234, 242, 243);
+                font-size: 110%;
             }
 
             ul li a:hover {
@@ -101,23 +92,18 @@ body {
         /* Footer */
 
         footer {
-            display: grid;
-            background-color: burlywood;
-            font-size: 120%;
+            background-color: rgb(210, 187, 219);
             padding: 1%;
-            grid-template-areas:"uno uno uno"
-                                "dos dos dos";
-            grid-template-columns: repeat(2, 0.5fr);
-            grid-template-rows: repeat(2, 0.5fr);
-
             .footer__grids {
-                color: rgb(88, 26, 146);
-                font-size: 100%;
+                color: black;
+                font-size: 200%;
+                padding: 1% 0% 0% 0%;
             }
 
             .footer__redes {
                 list-style: none;
                 display: flex;
+                padding: 1% 0% 0% 0%;
 
             }
 
@@ -131,20 +117,6 @@ body {
 
             .footer__telefonos {
                 list-style: none;
-                display: flex;
-                margin: 1rem;
-            }
-
-            .footer__telefonos li {
-                margin: 1rem;
-            }
-
-            .footer__uno {
-                grid-area: uno;
-            }
-
-            .footer__dos {
-                grid-area: dos;
             }
 
             div a {
@@ -156,27 +128,30 @@ body {
             }
 
             .parrafo {
-                font-size: 120%;
+                font-size: 130%;
+                color: crimson;
+                padding: 1% 0% 0% 0%;
             }
 
             .desarrollado {
                 font-size: 100%;
+                padding: 1% 0% 0% 0%;
             }
 
             .footer__w {
-                width: 4%;
+                width: 5%;
                 height: auto;
                 border: none;
             }
 
             .footer__i {
-                width: 4%;
+                width: 5%;
                 height: auto;
                 border: none;
             }
 
             .footer__f {
-                width: 4%;
+                width: 5%;
                 height: auto;
                 border: none;
             }

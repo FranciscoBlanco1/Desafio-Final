@@ -24,6 +24,7 @@ body .header .header__h1 {
   text-align: center;
   color: #072f31;
   font-weight: bolder;
+  -webkit-transition: 1s;
   transition: 1s;
   font-size: 230%;
 }
@@ -35,14 +36,18 @@ body .header .header__h1:hover {
 body .header .header__logo {
   width: 10%;
   height: 10%;
-  transform: translate(10%, -70%);
+  -webkit-transform: translate(10%, -70%);
+          transform: translate(10%, -70%);
 }
 
 body .header .header__subtitulo {
   text-align: center;
   color: #072f31;
+  -webkit-transition: 1s;
   transition: 1s;
-  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -30%);
+          transform: translate(0, -30%);
+  font-size: 200%;
 }
 
 body .header .header__subtitulo:hover {
@@ -50,34 +55,33 @@ body .header .header__subtitulo:hover {
 }
 
 body .header .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   list-style: none;
   text-transform: uppercase;
-  transform: translate(0%, -20%);
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
 }
 
 body .header .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   list-style: none;
   text-transform: uppercase;
-  transform: translate(0, -40%);
 }
 
 body .header ul li a {
   text-decoration: none;
   color: #57042c;
-  font-size: 120%;
-}
-
-body .header .nav-link {
-  text-decoration: none;
-  color: #57042c;
-}
-
-body .header .nav-link:hover {
-  color: #eaf2f3;
+  font-size: 110%;
 }
 
 body .header ul li a:hover {
@@ -85,8 +89,12 @@ body .header ul li a:hover {
 }
 
 body .article__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body img {
@@ -101,24 +109,22 @@ body h3 {
 }
 
 body footer {
-  display: grid;
-  background-color: burlywood;
-  font-size: 120%;
+  background-color: #d2bbdb;
   padding: 1%;
-      grid-template-areas: "uno uno uno"
- "dos dos dos";
-  grid-template-columns: repeat(2, 0.5fr);
-  grid-template-rows: repeat(2, 0.5fr);
 }
 
 body footer .footer__grids {
-  color: #581a92;
-  font-size: 100%;
+  color: black;
+  font-size: 200%;
+  padding: 1% 0% 0% 0%;
 }
 
 body footer .footer__redes {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  padding: 1% 0% 0% 0%;
 }
 
 body footer .footer__redes li {
@@ -131,20 +137,6 @@ body footer .footer__redes li a:hover {
 
 body footer .footer__telefonos {
   list-style: none;
-  display: flex;
-  margin: 1rem;
-}
-
-body footer .footer__telefonos li {
-  margin: 1rem;
-}
-
-body footer .footer__uno {
-  grid-area: uno;
-}
-
-body footer .footer__dos {
-  grid-area: dos;
 }
 
 body footer div a {
@@ -156,34 +148,41 @@ body footer div a:hover {
 }
 
 body footer .parrafo {
-  font-size: 120%;
+  font-size: 130%;
+  color: crimson;
+  padding: 1% 0% 0% 0%;
 }
 
 body footer .desarrollado {
   font-size: 100%;
+  padding: 1% 0% 0% 0%;
 }
 
 body footer .footer__w {
-  width: 4%;
+  width: 5%;
   height: auto;
   border: none;
 }
 
 body footer .footer__i {
-  width: 4%;
+  width: 5%;
   height: auto;
   border: none;
 }
 
 body footer .footer__f {
-  width: 4%;
+  width: 5%;
   height: auto;
   border: none;
 }
 
 body .article__productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body .identidad {
@@ -191,6 +190,7 @@ body .identidad {
   color: darkblue;
   text-align: center;
   padding: 5%;
+  -webkit-transition: 1s;
   transition: 1s;
 }
 
@@ -217,6 +217,7 @@ body label {
 body .titulo {
   font-size: 300%;
   color: darkblue;
+  -webkit-transition: 1s;
   transition: 1s;
 }
 
